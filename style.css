@@ -1,0 +1,99 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+body{
+    font-family: 'Roboto', sans-serif;
+    background-color: #FFFFE0;
+    text-align: center;
+}
+
+h1{
+}
+
+.wrapper{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 50px;
+}
+
+.emoji-face{
+    width: 100px;
+    height: 100px;
+    background-color: #F2DD68;
+    border-radius: 50px;
+    position: relative;
+    margin: 10px;
+}
+
+.eye1{
+    height: 10px;
+    width: 12px;
+    border-radius: 50%;
+    background-color: #995710;
+    position: absolute;
+    left: 25px;
+    top: 30px
+}
+
+.eye2{
+    height: 10px;
+    width: 12px;
+    border-radius: 50%;
+    background-color: #995710;
+    position: absolute;
+    right: 25px;
+    top: 30px;
+}
+
+.mouth{
+    width: 60px;
+    height: 30px;
+    background-color: #995710;
+    border-radius: 0 0 40px 40px;
+    position: absolute;
+    top: 60px;
+    left: 20px;
+    overflow: hidden;
+}
+
+.tongue{
+    width: 40px;
+    height: 20px;
+    background-color: #D05656;
+    border-radius: 20px 20px 0 0;
+    position: absolute;
+    top: 12px;
+    left: 10px;
+}
+
+.mouth-shock{
+    width: 19px;
+    height: 22px;
+    background-color: #995710;
+    border-radius: 40px;
+    position: absolute;
+    top: 57px;
+    left: 40px;
+}
+
+.mouth-speechless{
+    height: 5px;
+    width: 60px;
+    background-color: #995710;
+    position: absolute;
+    top: 60px;
+    left: 20px;
+}
+
+.write-up{
+    background-color: #D8AA2B;
+    width: 600px;
+    margin: auto;
+    padding: 70px 120px 70px 120px;
+    border-radius: 15px;
+}
+
+
+.emoji-face:hover{
+    scale: 1.2;
+}
