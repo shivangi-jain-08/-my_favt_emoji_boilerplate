@@ -1,12 +1,12 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto&family=Roboto+Mono&display=swap');
 
 body{
-    font-family: 'Roboto', sans-serif;
     background-color: #FFFFE0;
     text-align: center;
 }
 
 h1{
+    font-family: 'Roboto Mono', monospace;
 }
 
 .wrapper{
@@ -87,10 +87,17 @@ h1{
 
 .write-up{
     background-color: #D8AA2B;
-    width: 600px;
+    width: 650px;
     margin: auto;
-    padding: 70px 120px 70px 120px;
+    padding: 70px 100px 70px 100px;
     border-radius: 15px;
+}
+
+p{
+    width: 450px;
+    margin: auto;
+    font-size: 18px;
+    font-family: 'Roboto', sans-serif;
 }
 
 
